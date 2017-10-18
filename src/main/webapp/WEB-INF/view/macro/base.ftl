@@ -83,6 +83,28 @@
 					</li>
 				</ul>
 			</li>
+			<li class="treeview">
+				<a href="#">
+					<i class="fa fa-eye"></i> <span>Records</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i></span>
+				</a>
+				<ul class="treeview-menu">
+					<li>
+						<a target="navTab" href="${ctx}/admin/records/notes/list">
+						<i class="fa fa-inbox"></i> <span>Notes</span>
+						</a>
+					</li>
+					<li>
+						<a target="navTab" href="${ctx}/admin/records/lables/index">
+						<i class="fa fa-inbox"></i> <span>Lables</span>
+						</a>
+					</li>
+					<li>
+						<a target="navTab" href="${ctx}/admin/records/images/index">
+						<i class="fa fa-inbox"></i> <span>Images</span>
+						</a>
+					</li>
+				</ul>
+			</li>
 		</ul>
 	</section>
 </aside>
